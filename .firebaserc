@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "recipes-63795"
+  },
+  "targets": {
+    "recipes-63795": {
+      "hosting": {
+        "first-application": [
+          "recipes-63795"
+        ]
+      }
+    }
+  }
+}

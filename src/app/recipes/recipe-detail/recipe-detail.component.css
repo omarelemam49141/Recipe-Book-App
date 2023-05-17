@@ -1,0 +1,5 @@
+.show ul {
+    display: block;
+    position: absolute;
+    top: 40px;
+}

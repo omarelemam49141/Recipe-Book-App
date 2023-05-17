@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -91,8 +92,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "first-application:build:production",
+            "firebaseProject": "recipes-63795",
+            "firebaseHostingSite": "recipes-63795"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "42e03524-1bb1-414f-b4d0-aee0e3a17d1c"
   }
 }

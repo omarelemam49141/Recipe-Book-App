@@ -1,0 +1,11 @@
+<a style="cursor: pointer;" class="mb-3" [routerLink]="index">
+    <li routerLinkActive="active" class="d-flex justify-content-between align-items-start list-group-item">
+        <div class="ms-2 me-auto">
+            <div class="fw-bold">{{recipe.name}}</div>
+            {{recipe.description}}
+        </div>
+        <div class="badge rounded-pill">
+            <img [src]="recipe.imagePath" alt="image" class="img-fluid" style="max-height: 50px;">
+        </div>
+    </li>
+</a>
